@@ -2634,49 +2634,58 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
+	.image2 {
+		border: 0;
+		filter: blur(1px);
+		border-radius: 4px;
+		display: inline-block;
+		position: relative;
+		
+	}
+
+		.image img , .image2 img{
 			display: block;
 			border-radius: 4px;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right ,  .image2.left .image2.right {
 			width: 40%;
 			max-width: 10rem;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img , .image2.right img .image2.left img {
 				width: 100%;
 			}
 
-		.image.left {
+		.image.left , .image2.left{
 			float: left;
 			margin: 0 1.5rem 1rem 0;
 			top: 0.25rem;
 		}
 
-		.image.right {
+		.image.right , .image2.right {
 			float: right;
 			margin: 0 0 1rem 1.5rem;
 			top: 0.25rem;
 		}
 
-		.image.fit {
+		.image.fit , .image2.fit{
 			display: block;
 			margin: 0 0 2rem 0;
 			width: 100%;
 		}
 
-			.image.fit img {
+			.image.fit img , .image2.fit img{
 				width: 100%;
 			}
 
-		.image.main {
+		.image.main , .image2.main {
 			display: block;
 			margin: 0 0 3rem 0;
 			width: 100%;
 		}
 
-			.image.main img {
+			.image.main img , .image2.main img {
 				width: 100%;
 			}
 
